@@ -133,6 +133,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Section 4: Deep Dive Appendices */}
+      <section id="appendices" className="py-20 px-4 bg-gray-50 border-t border-gray-200">
+        <div className="max-w-5xl mx-auto text-center mb-12">
+          <h2 className="text-4xl font-heading font-bold text-brand-charcoal mb-4">Detailed Strategy Documents</h2>
+          <p className="text-xl text-gray-600">Explore the foundational frameworks we built to power this campaign.</p>
+        </div>
+        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-6">
+          <a href="/marketing-capture-plan"
+            className="block bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-teal transition group">
+            <h4 className="font-heading font-bold text-xl text-brand-charcoal group-hover:text-brand-teal mb-2">
+              Marketing Capture Plan</h4>
+            <p className="text-sm text-gray-600">The foundational analysis of the True Girl mission, audience, and
+              content pillars.</p>
+          </a>
+          <a href="/brand-guidelines"
+            className="block bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-magenta transition group">
+            <h4 className="font-heading font-bold text-xl text-brand-charcoal group-hover:text-brand-magenta mb-2">Brand
+              Guidelines</h4>
+            <p className="text-sm text-gray-600">The exact color codes, typography, and styling rules for the "Modern
+              Scrapbook" aesthetic.</p>
+          </a>
+          <a href="/messaging-framework"
+            className="block bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-yellow transition group">
+            <h4 className="font-heading font-bold text-xl text-brand-charcoal group-hover:text-brand-yellow mb-2">
+              Messaging Framework</h4>
+            <p className="text-sm text-gray-600">Copywriting rules to ensure the voice balances Biblical Authority with
+              Maternal Empathy.</p>
+          </a>
+          <a href="/content-funnel"
+            className="block bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-lavender transition group">
+            <h4 className="font-heading font-bold text-xl text-brand-charcoal group-hover:text-brand-lavender mb-2">
+              Content Funnel Blueprint</h4>
+            <p className="text-sm text-gray-600">Mapping the step-by-step user journey from basic awareness to final
+              purchase.</p>
+          </a>
+          <a href="/social-media-concepts"
+            className="block bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-teal transition group">
+            <h4 className="font-heading font-bold text-xl text-brand-charcoal group-hover:text-brand-teal mb-2">Social
+              Media Concepts</h4>
+            <p className="text-sm text-gray-600">Visual mockups and caption strategies for Instagram and Facebook.</p>
+          </a>
+          <a href="/welcome-sequence"
+            className="block bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md hover:border-brand-magenta transition group">
+            <h4 className="font-heading font-bold text-xl text-brand-charcoal group-hover:text-brand-magenta mb-2">
+              Welcome Email Sequence</h4>
+            <p className="text-sm text-gray-600">The 4-part automated email flow designed to build trust and pitch the
+              core product.</p>
+          </a>
+        </div>
+      </section>
+
       {/* Footer / CTA */}
       <section id="contact" className="bg-brand-charcoal text-white py-20 px-4 text-center">
         <div className="max-w-3xl mx-auto">
