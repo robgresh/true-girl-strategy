@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       {/* Section 1: Transparency / The Process */}
-      <section id="process" className="py-20 px-4 bg-white">
+      <section id="process" className="py-20 px-4 bg-brand-blush">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div>
             <img src="https://mytruegirl.com/wp-content/uploads/2024/11/Group-20-768x700.png"
@@ -60,10 +60,9 @@ export default function Home() {
               messaging, and extract your exact visual guidelines.
             </p>
             <p className="text-lg mb-6 leading-relaxed">
-              <strong>We aren't replacing human empathy; we are scaling it.</strong> By letting AI handle the
-              heavy lifting of structure, design templates, and formatting, we freed our strategic bandwidth to focus entirely on the psychology of the Christian mom navigating the tween years.
+              <strong>By delegating the structural heavy lifting, design templates, and formatting, we free our strategic bandwidth to focus entirely on the psychology of the Christian mom navigating the tween years.</strong>
             </p>
-            <div className="bg-brand-blush border-l-4 border-brand-magenta p-6 rounded-r-xl">
+            <div className="bg-white border-l-4 border-brand-magenta p-6 rounded-r-xl shadow-sm">
               <h4 className="font-heading font-bold text-brand-magenta text-lg mb-2">Our Goal</h4>
               <p className="text-sm">To prove that as your agency partner, we can generate high-converting, deeply
                 empathetic campaigns at an unprecedented speed.</p>
@@ -73,7 +72,7 @@ export default function Home() {
       </section>
 
       {/* Section 2: Frameworks */}
-      <section id="frameworks" className="py-20 px-4 bg-gray-50 border-t border-gray-200">
+      <section id="frameworks" className="py-20 px-4 bg-brand-lavender/10 border-t border-brand-lavender/20">
         <div className="max-w-5xl mx-auto text-center mb-16">
           <h2 className="text-4xl font-heading font-bold text-brand-charcoal mb-4">Reverse-Engineering the Magic</h2>
           <p className="text-xl text-gray-600">Before building collateral, we codified what makes True Girl work.</p>

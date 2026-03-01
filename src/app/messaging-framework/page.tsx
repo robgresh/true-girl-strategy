@@ -1,6 +1,6 @@
 export default function MessagingFramework() {
     return (
-        <div className="bg-gray-50 min-h-screen antialiased text-brand-charcoal pt-[80px]">
+        <div className="bg-brand-blush min-h-screen antialiased text-brand-charcoal pt-[80px]">
             {/* Navigation */}
             <nav className="bg-white border-b border-gray-200 fixed top-0 w-full z-50">
                 <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
