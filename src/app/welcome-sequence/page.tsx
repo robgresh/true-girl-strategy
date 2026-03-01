@@ -43,7 +43,7 @@ export default function WelcomeSequence() {
                             <p className="font-bold text-brand-magenta text-xl">We see you, Mom. And we want you to know you&apos;re doing a great job.</p>
                             <p>You signed up for <strong>&quot;5 Conversations to Have with Your Tween This Week,&quot;</strong> and your digital copy is ready for you right here:</p>
                             <div className="my-6">
-                                <a href="#" className="inline-block bg-brand-magenta text-white font-bold py-3 px-6 rounded-full shadow hover:bg-pink-600 transition">Download Your Copy Now</a>
+                                <a href="/lead_magnet.pdf" download className="inline-block bg-brand-magenta text-white font-bold py-3 px-6 rounded-full shadow hover:bg-pink-600 transition">Download Your Copy Now</a>
                             </div>
                             <p><strong>How to use this guide:</strong><br />Don&apos;t try to force all five conversations tonight! Pick just one for the drive to practice tomorrow, or try one over breakfast. The goal isn&apos;t a deep, two-hour theological discussion. The goal is <em>connection</em>.</p>
                             <p>When you ask these questions, your only job is to listen.</p>

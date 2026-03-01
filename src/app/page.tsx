@@ -109,7 +109,7 @@ export default function Home() {
       <section id="funnel" className="py-20 px-4 bg-white overflow-hidden">
         <div className="max-w-5xl mx-auto text-center mb-16">
           <h2 className="text-4xl font-heading font-bold text-brand-charcoal mb-4">The Generated Funnel</h2>
-          <p className="text-xl text-gray-600">We didn't just plan a funnel; we built the actual copy and wireframes.</p>
+          <p className="text-xl text-gray-600">The comprehensive funnel strategy, complete with functional copy and wireframes.</p>
         </div>
 
         <div className="max-w-3xl mx-auto pb-10 space-y-8">
@@ -122,7 +122,10 @@ export default function Home() {
           <div className="bg-gray-50 border-l-4 border-brand-yellow p-6 rounded-r-xl shadow-sm ml-8">
             <span className="text-xs font-bold text-yellow-600 uppercase tracking-widest mb-1 block">Lead Generation</span>
             <h4 className="font-heading font-bold text-xl mb-2">High-Value Lead Magnet</h4>
-            <p className="text-gray-600 text-sm">A 6-page digital download capturing emails by offering immediate help: "5 Conversations to Have with Your Tween."</p>
+            <p className="text-gray-600 text-sm mb-4">A 6-page digital download capturing emails by offering immediate help: "5 Conversations to Have with Your Tween."</p>
+            <a href="/lead_magnet.pdf" download className="inline-block border-2 border-brand-yellow text-brand-charcoal hover:bg-brand-yellow hover:text-white transition-colors text-sm font-bold px-5 py-2 rounded-full shadow-sm">
+              Download Lead Magnet PDF
+            </a>
           </div>
 
           <div className="bg-gray-50 border-l-4 border-brand-magenta p-6 rounded-r-xl shadow-sm ml-16">
