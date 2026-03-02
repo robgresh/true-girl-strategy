@@ -1,11 +1,13 @@
 export default function WelcomeSequence() {
     return (
         <div className="bg-brand-blush min-h-screen antialiased text-brand-charcoal pt-[80px]">
-            {/* Navigation */}
-            <nav className="bg-white border-b border-gray-200 fixed top-0 w-full z-50">
+            <nav className="bg-white border-b border-gray-200 fixed top-0 w-full z-50 shadow-sm">
                 <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-                    <div className="font-heading font-extrabold text-xl text-brand-magenta">Strategy Sprint Appendix</div>
-                    <a href="/" className="text-brand-teal hover:text-teal-600 font-medium text-sm flex items-center">
+                    <div className="flex items-center space-x-3">
+                        <img src="/kindred-logo.png" alt="Kindred Strategy Logo" className="w-8 h-8 object-contain" />
+                        <span className="font-heading font-extrabold text-xl text-brand-charcoal tracking-tight">Kindred Strategy</span>
+                    </div>
+                    <a href="/#appendices" className="text-brand-teal hover:text-teal-600 font-medium text-sm flex items-center transition">
                         &larr; Back to Main Proposal
                     </a>
                 </div>

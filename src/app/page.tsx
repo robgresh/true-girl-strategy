@@ -5,25 +5,28 @@ export default function Home() {
     <div className="bg-gray-50 min-h-screen font-body text-brand-charcoal pt-[80px]">
 
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+      <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="font-heading font-extrabold text-2xl text-brand-magenta tracking-tight">Strategy Sprint</div>
-          <div className="hidden md:flex space-x-8 font-medium text-sm">
+          <div className="flex items-center space-x-3">
+            <img src="/kindred-logo.png" alt="Kindred Strategy Logo" className="w-8 h-8 object-contain" />
+            <div className="font-heading font-extrabold text-xl text-brand-charcoal tracking-tight">Kindred Strategy</div>
+          </div>
+          <div className="hidden md:flex space-x-8 font-medium text-sm text-gray-600">
             <a href="#demo" className="hover:text-brand-teal transition">The Prototype</a>
             <a href="#process" className="hover:text-brand-teal transition">The Process</a>
             <a href="#frameworks" className="hover:text-brand-teal transition">Frameworks</a>
             <a href="#funnel" className="hover:text-brand-teal transition">The Funnel</a>
           </div>
           <a href="#contact"
-            className="bg-brand-teal hover:bg-teal-600 text-white px-6 py-2 rounded-full font-heading font-bold shadow-md transition">Let's Talk</a>
+            className="bg-brand-charcoal hover:bg-black text-white px-6 py-2 rounded-full font-heading font-bold shadow-md transition text-sm">Partner With Us</a>
         </div>
       </nav>
 
       {/* Main Pitch Proposal Header */}
-      <section className="bg-white pt-24 pb-10 px-4">
+      <section className="bg-white pt-28 pb-10 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-block bg-brand-blush text-brand-magenta font-heading font-bold px-4 py-1 rounded-full mb-6 text-sm border border-brand-magenta/20 shadow-sm">
-            Prepared exclusively for Dannah Gresh & True Girl Leadership
+          <div className="inline-block bg-brand-blush text-brand-magenta font-heading font-bold px-4 py-1.5 rounded-full mb-6 text-sm border border-brand-magenta/20 shadow-sm uppercase tracking-wide">
+            A Kindred Strategy Sprint • Prepared for True Girl
           </div>
           <h1 className="text-5xl md:text-7xl font-heading font-extrabold text-brand-charcoal mb-6 leading-tight">
             Accelerating the <span className="text-brand-magenta">True Girl</span> Mission with AI.
